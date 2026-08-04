@@ -1,0 +1,32 @@
+{
+  "name": "proyecto-integrador-2",
+  "version": "1.0.0",
+  "description": "API REST desarrollada con Node.js, Express y PostgreSQL para gestionar autores y publicaciones.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js",
+  "test": "vitest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casalmarinaandrea-ops/ProyectoM2_MARINACASAL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/casalmarinaandrea-ops/ProyectoM2_MARINACASAL/issues"
+  },
+  "homepage": "https://github.com/casalmarinaandrea-ops/ProyectoM2_MARINACASAL#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
