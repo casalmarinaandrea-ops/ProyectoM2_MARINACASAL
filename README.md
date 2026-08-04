@@ -1,0 +1,1 @@
+API REST desarrollada con Node.js, Express y PostgreSQL para gestionar autores y publicaciones.
