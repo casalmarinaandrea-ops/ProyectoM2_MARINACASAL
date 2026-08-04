@@ -7,10 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-  "start": "node src/server.js",
-  "dev": "nodemon src/server.js",
-  "test": "vitest"
-},
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "vitest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/casalmarinaandrea-ops/ProyectoM2_MARINACASAL.git"
@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/casalmarinaandrea-ops/ProyectoM2_MARINACASAL#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.22.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
